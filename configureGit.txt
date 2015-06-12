@@ -32,4 +32,4 @@ Luego...
 REPO CLONADO
 *Navegar hasta la dirección donde se creará el repo
 1. git clone https://github.com/marzurk/config_github.git
-2. Trabajar en la carpeta que acaba de crear, agregando archivos y cambios como en los pasos 1 - 4 de lo anterior
+2. Trabajar en la carpeta que acaba de crear, agregando archivos y cambios como en los pasos 1 - 4, 6 del proceso anterior
