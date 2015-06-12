@@ -1,0 +1,35 @@
+1. Agregar sublime a las variables de entorno para que puedas acceder a el desde la terminal de git o desde cmd con el comando subl [sysdm.cpl]
+1. 1. Copiar la ruta de instalacion de sublime: C:\Archivos de Programa(x86)\Sublime Text 3
+1. 2. Crear una nueva variable de entorno en Variables de Entorno de Windows\Sistema [Windows + Pausa \ Configuración avanzada del sistema\Variables del entorno]
+1. 3. Nombre de la variable: SUBLIME
+	  Valor de la variable: C:\Program Files\Sublime Text 3
+1. 4. Agregar la variable que acabas de crear a PATH
+	  Variables del sistema\ PATH\ Editar
+	  Agregar: ;%SUBLIME%
+
+REPO SIN CLONAR
+*Crear directorio para guardar el repo, con comandos de linux
+cd -> Moverse entre carpetas
+cd Carpeta
+cd .. Subir
+
+ls Mostrar directorio
+
+mkdir crear carpeta
+mkdir carpeta_a_crear
+
+Luego...
+1. git init 							//Inicializa el repositorio
+2. subl READ.md
+	Agregar descripcion para el repo
+	Guardar y cerrar
+3. git add READ.md 						//Agrega el archivo a el repo
+4. git commit -m "mensaje"			//prepara los cambios_incluye msg
+5. git remote add origin https://github.com/marzurk/otherGit.git
+									//direccion donde se guardará
+6.git push -u origin master			//guarda los cambios
+
+REPO CLONADO
+*Navegar hasta la dirección donde se creará el repo
+1. git clone https://github.com/marzurk/config_github.git
+2. Trabajar en la carpeta que acaba de crear, agregando archivos y cambios como en los pasos 1 - 4 de lo anterior
